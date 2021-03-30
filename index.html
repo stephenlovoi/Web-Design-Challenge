@@ -1,0 +1,61 @@
+<DOCTYPE html>
+<html lang = "en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Weather Visualization</title>
+</head>
+
+<body>
+    <nav class = "navbar navbar-expand-lg navbar-light bg light justify-content-between">
+        <a class="navbar-brand" id="latitude" href="index.html">Weather Visualization</a>
+        <button class ="navbar-toggler" type = "button" data-toggle="collapse" data-target="navbarNavDropdown" aria controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"></button>
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav navbar-right">
+                <li class="nav-item dropdown dropdown-menu-right">
+                    <a class="nav-link dropdown-toggle" href="index.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plots</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="temp.html">Max Temperature</a>
+                        <a class="dropdown-item" href="humidity.html">Humidity</a>
+                        <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                        <a class="dropdown-item" href="wind.html">Wind Speed</a>
+                    </div> 
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Comparison.html">Comparison</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-8">
+                <div class="summary-content">
+                    <h2>Kneel before poseidon</h2>
+                <hr>
+                <img src="Images/hurricane.png" alt="" id="summarying" alignment="right">
+                <p>message here</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <section id="comparison">
+                <div class="comparisonContent">
+                    <h2>Visualizations</h2>
+                    <hr>
+                    <div id="images">
+                        <img src="Resources/assets/Images/Fig1.png" alt="" class="comparisonImg">
+                        <img src="Resources/assets/Images/Fig2.png" alt="" class="comparisonImg">
+                        <img src="Resources/assets/Images/Fig3.png" alt="" class="comparisonImg">
+                        <img src="Resources/assets/Images/Fig4.png" alt="" class="comparisonImg">
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+
+</html>
